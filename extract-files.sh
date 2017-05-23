@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=zerofltecan
+export DEVICE=zeroltecan
 export DEVICE_COMMON=zero-common
 export VENDOR=samsung
 

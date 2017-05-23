@@ -14,23 +14,23 @@
 
 #
 # This file is the build configuration for a full Android
-# build for zerofltecan hardware. This cleanly combines a set of
+# build for zeroltecan hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and zerofltecan, hence its name.
+# lines, full and zeroltecan, hence its name.
 #
 
 PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, device/samsung/zerofltecan/device.mk)
+$(call inherit-product, device/samsung/zeroltecan/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := zerofltecan
-PRODUCT_DEVICE := zeroflte
+PRODUCT_NAME := zeroltecan
+PRODUCT_DEVICE := zerolte
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-G920W8
+PRODUCT_MODEL := SM-G925W8

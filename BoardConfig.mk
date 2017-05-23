@@ -24,13 +24,13 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltecan,zerofltetmo
+TARGET_OTA_ASSERT_DEVICE := zeroltecan,zeroltetmo
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltecan/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/zeroltecan/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_zerofltecan_defconfig
+TARGET_KERNEL_CONFIG := lineageos_zeroltecan_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200

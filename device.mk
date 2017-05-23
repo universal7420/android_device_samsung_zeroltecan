@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/zerofltecan
+LOCAL_PATH := device/samsung/zeroltecan
 
 # custom mixer-paths
 PRODUCT_COPY_FILES += \

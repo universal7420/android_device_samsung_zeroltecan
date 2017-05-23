@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zerofltecan/full_zerofltecan.mk)
+$(call inherit-product, device/samsung/zeroltecan/full_zeroltecan.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
@@ -11,8 +11,8 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Galaxy S6" \
-    TARGET_DEVICE="Galaxy S6"
+    PRODUCT_NAME="Galaxy S6 Edge" \
+    TARGET_DEVICE="Galaxy S6 Edge"
 
-PRODUCT_NAME := lineage_zerofltecan
-PRODUCT_DEVICE := zerofltecan
+PRODUCT_NAME := lineage_zeroltecan
+PRODUCT_DEVICE := zeroltecan
