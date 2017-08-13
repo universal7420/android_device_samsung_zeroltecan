@@ -14,8 +14,8 @@ $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 $(call inherit-product, vendor/nexus/product.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Galaxy S6 Edge" \
-    TARGET_DEVICE="Galaxy S6 Edge"
+    PRODUCT_NAME="zeroltecan" \
+    TARGET_DEVICE="zerolte"
 
 PRODUCT_NAME := aokp_zeroltecan
 PRODUCT_DEVICE := zeroltecan
