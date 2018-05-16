@@ -5,4 +5,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/gzosp.mk \
     $(LOCAL_DIR)/lineage.mk \
     $(LOCAL_DIR)/nexus_zeroltecan.mk \
-    $(LOCAL_DIR)/omni_zeroltecan.mk
+    $(LOCAL_DIR)/omni_zeroltecan.mk \
+    $(LOCAL_DIR)/dot.mk
