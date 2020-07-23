@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zeroltecan.mk
+    $(LOCAL_DIR)/bliss_zeroltecan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zeroltecan-user \
-    lineage_zeroltecan-userdebug \
-    lineage_zeroltecan-eng
+    bliss_zeroltecan-user \
+    bliss_zeroltecan-userdebug \
+    bliss_zeroltecan-eng
